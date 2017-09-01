@@ -10,7 +10,7 @@ public class MainController {
 
    @RequestMapping(value="/index")
    public String idex() {
-      
+      System.out.println("aaa");
       return "index";
    
  }

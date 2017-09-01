@@ -15,4 +15,14 @@ public class UserController {
 		
 	}
 	
+	@RequestMapping(value="plus")
+	public String writeform() {
+		
+		return "user/plus";
+	}
+	@RequestMapping(value="catalog")
+	public String catalog() {
+		return "user/catalog";
+	}
+	
 }

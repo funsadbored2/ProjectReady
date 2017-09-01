@@ -20,8 +20,8 @@
     <thead id='stock_thead'>
         <tr>
             <td>
-                <input type=text name=opty size=4> 
-                <input type=text name=optx size=4>
+               
+                <input type=text name=optx size=10>
             </td>
             <td>
                 <input type=text name='optx_subj[]' size=10>

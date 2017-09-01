@@ -21,17 +21,17 @@
         <tr>
             <td>
                
-                <input type=text name=optx size=10>
+                <input type=text name=optx size=10 value="1">
             </td>
             <td>
-                <input type=text name='optx_subj[]' size=10>
+                <input type=text name='optx_subj[]' size=10 value="2">
             </td>
         </tr>
     </thead>
     <tbody id='stock_tbody'>
         <tr>
-            <td><input type=text name='opty_subj[]' size=10></td>
-            <td><input type=text name='opt[0][]' size=10></td>
+            <td><input type=text name='opty_subj[]' size=10 value="3"></td>
+            <td><input type=text name='opt[0][]' size=10 value="4"></td>
         </tr>
     </tbody>
 </table>

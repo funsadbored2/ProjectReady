@@ -14,6 +14,9 @@
 
 <title>Agency - Start Bootstrap Theme</title>
 
+<link href="${pageContext.request.contextPath}/assets/css/user.css"
+	rel="stylesheet" type="text/css">
+
 <!-- Bootstrap core CSS -->
 <link
    href="${pageContext.request.contextPath }/assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -162,6 +165,47 @@ function closeNav() {
 </script>
          
    </nav>
+   
+   
+   <div id="container">
+		
+		<div id="wrapper">
+			<div id="content">
+				<div id="user">
+
+					<form id="login-form" name="loginform" method="post"
+						action="${pageContext.request.contextPath}/user/login">
+
+
+						<label class="block-label" for="email">이메일</label>
+						<input id="email" name="email" type="text" value="" /> 
+						<label class="block-label">패스워드</label> 
+						<input name="password" type="password" value="" />
+
+						<c:if test="${param.result eq 'fail' }">
+							<P>로그인이 실패했습니다. 다시입력해주세요</P>
+						</c:if>
+
+						<input type="submit" value="로그인">
+						<input type="submit" value="네이버 ID 로그인">
+						<input type="submit" value="facebook ID 로그인"> 
+											
+					</form>
+
+
+
+
+				</div>
+				<!-- /user -->
+			</div>
+			<!-- /content -->
+		</div>
+		<!-- /wrapper -->
+
+		
+
+	</div>
+   
   </body>
   </html>
   

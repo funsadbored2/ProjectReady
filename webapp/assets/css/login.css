@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+/*이메일,패스워드 글씨 조정*/
+label.block-label					{ display:block }
+label.block-label, fieldset			{ margin:5px 0 3px 0 }
+label.block-label, fieldset legend	{ margin-bottom:3px }
+
+/*로그인 버튼 정렬*/
+fieldset				{ border:none }
+input[type="submit"]	{ display:block; width:100px; margin:20px auto }
+
+#login-form	{
+	text-align:center;
+	width:800px;
+	padding:10px;
+	border:1px outset #666;
+	margin:160px auto;
+}
+#out_rectangle{
+	align:center;
+	width:1000px;
+	border:1px solid #666;
+	margin:160px auto;
+}
+
+#user p		{ text-align:center; padding:10px}
+
+#user p.jr-success	{ height:200px }
